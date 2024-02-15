@@ -59,7 +59,7 @@ function rollToString(roll) {
 }
 
 async function getWordList() {
-    const response = await fetch("/eff_large_wordlist.txt");
+    const response = await fetch("/dicepass/eff_large_wordlist.txt");
     const wordlist = await response.text();
     return wordlist;
 }
