@@ -1,0 +1,12 @@
+body {
+    margin: auto;
+    padding: 20px;
+    width: 60%;
+    font-size: 150%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.list {
+    border: 3px solid gray;
+    padding: 10px;
+}

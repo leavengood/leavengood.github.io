@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Diceware Password Idea Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <h1>Diceware Password Idea Generator</h1>
+    <p>
+        This page uses the <a href="https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt" target="_blank">EFF Large Wordlist</a>
+        and the built-in browser secure random number generator to create
+        <a href="https://www.eff.org/dice" target="_blank">possible words to use for a password or passphrase</a>.
+        The dice roll used for each word is shown with the word.
+        Everything is done within the browser, feel free to inspect the source
+        code to be sure.
+    </p>
+    <p>
+        Take some of these words, these numbers, and these symbols to make a password.
+        The more funny and memorable, the better.
+        Randomly capitalize some words for increased security.
+    </p>
+    <h3>Examples</h3>
+    <div>Overlook6rantingdoorknob@</div>
+    <div>shivering8Zen$broomFlatware</div>
+    <div>5humpback*strut!jugular</div>
+
+    <h2>Words</h2>
+    <div id="words" class="list">
+    </div>
+
+    <h2>Numbers</h2>
+    <div id="numbers" class="list">
+    </div>
+
+    <h2>Symbols</h2>
+    <div id="symbols" class="list">
+    </div>
+</body>
+
+</html>
